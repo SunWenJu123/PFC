@@ -2,7 +2,7 @@
 
 > Paper Title: Prospective Forgetting Control: A Look-Ahead Approach Toward Stable Incremental Learning
 
-![image-20241121235637359](img\image-20241121235637359.png)
+![image-20241121235637359](.\img\image-20241121235637359.png)
 
 
 ## Setup

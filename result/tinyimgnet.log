@@ -1,0 +1,1144 @@
+nohup: 忽略输入
+
+=================================================================
+========================== batch_size : 16 ==========================
+=================================================================
+
+Namespace(root='./data/', transform='default', featureNet=None, nt=None, t_c_arr=None, validation=False, class_shuffle=False, task_shuffle=False, keep_ratio=1, backbone='None', n_epochs=100, learning_rate=None, batch_size=16, print_freq=10, img_dir='img/', seed=None, repeat=5, model='ntkm3sch', device=device(type='cuda'), dataset='seq-tinyimg', lr=0.02, ratio=0.2, exp_size=500, gamma=1)
+================================= repeat 1/5 =================================
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:2.02872, loss_penalty:0.00000
+epoch:10, loss:0.72213, loss_penalty:0.00000
+epoch:20, loss:0.63196, loss_penalty:0.00000
+epoch:30, loss:0.21580, loss_penalty:0.00000
+epoch:40, loss:0.07692, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.00409, loss_penalty:0.00000
+epoch:60, loss:0.00216, loss_penalty:0.00000
+epoch:70, loss:0.00795, loss_penalty:0.00000
+epoch:80, loss:0.01361, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.00294, loss_penalty:0.00000
+train_time 1980.9047422409058 test_time 0.9217815399169922
+Acc for task 0 : [0.0, 80.10000000000001]
+Accuracy for 1 task(s): 	 [Class-IL]: 80.1 % 	 [Task-IL]: 80.1 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.33692, loss_penalty:0.00000
+epoch:10, loss:1.16927, loss_penalty:0.00000
+epoch:20, loss:1.34899, loss_penalty:0.00000
+epoch:30, loss:1.53822, loss_penalty:0.00000
+epoch:40, loss:0.71179, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.87771, loss_penalty:0.00000
+epoch:60, loss:0.86059, loss_penalty:0.00000
+epoch:70, loss:1.08115, loss_penalty:0.00000
+epoch:80, loss:1.10261, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.67976, loss_penalty:0.00000
+train_time 2428.5470185279846 test_time 1.674415111541748
+Acc for task 0 : [0.0, 80.10000000000001, 79.9]
+Acc for task 1 : [0.0, 63.800000000000004]
+Accuracy for 2 task(s): 	 [Class-IL]: 43.6 % 	 [Task-IL]: 71.85 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.85849, loss_penalty:0.00000
+epoch:10, loss:1.05815, loss_penalty:0.00000
+epoch:20, loss:1.08584, loss_penalty:0.00000
+epoch:30, loss:0.97468, loss_penalty:0.00000
+epoch:40, loss:0.94063, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.95842, loss_penalty:0.00000
+epoch:60, loss:1.01666, loss_penalty:0.00000
+epoch:70, loss:0.77234, loss_penalty:0.00000
+epoch:80, loss:0.56439, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.07643, loss_penalty:0.00000
+train_time 2438.557624578476 test_time 2.5057499408721924
+Acc for task 0 : [0.0, 80.10000000000001, 79.9, 80.2]
+Acc for task 1 : [0.0, 63.800000000000004, 63.1]
+Acc for task 2 : [0.0, 70.6]
+Accuracy for 3 task(s): 	 [Class-IL]: 31.57 % 	 [Task-IL]: 71.3 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.69669, loss_penalty:0.00000
+epoch:10, loss:0.71402, loss_penalty:0.00000
+epoch:20, loss:0.96761, loss_penalty:0.00000
+epoch:30, loss:0.83277, loss_penalty:0.00000
+epoch:40, loss:0.93341, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.35775, loss_penalty:0.00000
+epoch:60, loss:1.39484, loss_penalty:0.00000
+epoch:70, loss:0.26858, loss_penalty:0.00000
+epoch:80, loss:0.99635, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.11514, loss_penalty:0.00000
+train_time 2427.850393295288 test_time 3.335512399673462
+Acc for task 0 : [0.0, 80.10000000000001, 79.9, 80.2, 78.2]
+Acc for task 1 : [0.0, 63.800000000000004, 63.1, 61.0]
+Acc for task 2 : [0.0, 70.6, 67.5]
+Acc for task 3 : [0.0, 71.39999999999999]
+Accuracy for 4 task(s): 	 [Class-IL]: 25.1 % 	 [Task-IL]: 69.53 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.68859, loss_penalty:0.00000
+epoch:10, loss:2.24025, loss_penalty:0.00000
+epoch:20, loss:0.80020, loss_penalty:0.00000
+epoch:30, loss:1.10914, loss_penalty:0.00000
+epoch:40, loss:0.72911, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.92598, loss_penalty:0.00000
+epoch:60, loss:0.87180, loss_penalty:0.00000
+epoch:70, loss:0.60208, loss_penalty:0.00000
+epoch:80, loss:0.96569, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.12152, loss_penalty:0.00000
+train_time 2435.2509891986847 test_time 4.209003925323486
+Acc for task 0 : [0.0, 80.10000000000001, 79.9, 80.2, 78.2, 78.9]
+Acc for task 1 : [0.0, 63.800000000000004, 63.1, 61.0, 60.0]
+Acc for task 2 : [0.0, 70.6, 67.5, 68.30000000000001]
+Acc for task 3 : [0.0, 71.39999999999999, 68.7]
+Acc for task 4 : [0.0, 73.0]
+Accuracy for 5 task(s): 	 [Class-IL]: 21.54 % 	 [Task-IL]: 69.78 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.39419, loss_penalty:0.00000
+epoch:10, loss:1.13452, loss_penalty:0.00000
+epoch:20, loss:1.71073, loss_penalty:0.00000
+epoch:30, loss:0.86286, loss_penalty:0.00000
+epoch:40, loss:1.41526, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.04691, loss_penalty:0.00000
+epoch:60, loss:0.88232, loss_penalty:0.00000
+epoch:70, loss:0.48015, loss_penalty:0.00000
+epoch:80, loss:0.58092, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.90815, loss_penalty:0.00000
+train_time 2431.862751722336 test_time 5.041645050048828
+Acc for task 0 : [0.0, 80.10000000000001, 79.9, 80.2, 78.2, 78.9, 78.9]
+Acc for task 1 : [0.0, 63.800000000000004, 63.1, 61.0, 60.0, 61.3]
+Acc for task 2 : [0.0, 70.6, 67.5, 68.30000000000001, 68.7]
+Acc for task 3 : [0.0, 71.39999999999999, 68.7, 68.60000000000001]
+Acc for task 4 : [0.0, 73.0, 71.0]
+Acc for task 5 : [0.0, 69.89999999999999]
+Accuracy for 6 task(s): 	 [Class-IL]: 18.7 % 	 [Task-IL]: 69.73 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.81642, loss_penalty:0.00000
+epoch:10, loss:1.43949, loss_penalty:0.00000
+epoch:20, loss:1.35730, loss_penalty:0.00000
+epoch:30, loss:0.56952, loss_penalty:0.00000
+epoch:40, loss:0.98367, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.75361, loss_penalty:0.00000
+epoch:60, loss:0.91793, loss_penalty:0.00000
+epoch:70, loss:1.16990, loss_penalty:0.00000
+epoch:80, loss:1.37705, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.06641, loss_penalty:0.00000
+train_time 2439.354622364044 test_time 5.847435235977173
+Acc for task 0 : [0.0, 80.10000000000001, 79.9, 80.2, 78.2, 78.9, 78.9, 77.8]
+Acc for task 1 : [0.0, 63.800000000000004, 63.1, 61.0, 60.0, 61.3, 60.6]
+Acc for task 2 : [0.0, 70.6, 67.5, 68.30000000000001, 68.7, 67.60000000000001]
+Acc for task 3 : [0.0, 71.39999999999999, 68.7, 68.60000000000001, 69.69999999999999]
+Acc for task 4 : [0.0, 73.0, 71.0, 70.8]
+Acc for task 5 : [0.0, 69.89999999999999, 68.2]
+Acc for task 6 : [0.0, 71.1]
+Accuracy for 7 task(s): 	 [Class-IL]: 16.31 % 	 [Task-IL]: 69.4 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.55153, loss_penalty:0.00000
+epoch:10, loss:1.05710, loss_penalty:0.00000
+epoch:20, loss:1.13163, loss_penalty:0.00000
+epoch:30, loss:1.37047, loss_penalty:0.00000
+epoch:40, loss:0.77294, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.26420, loss_penalty:0.00000
+epoch:60, loss:1.18421, loss_penalty:0.00000
+epoch:70, loss:0.71177, loss_penalty:0.00000
+epoch:80, loss:0.42138, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.14434, loss_penalty:0.00000
+train_time 2439.1862647533417 test_time 6.68149733543396
+Acc for task 0 : [0.0, 80.10000000000001, 79.9, 80.2, 78.2, 78.9, 78.9, 77.8, 77.5]
+Acc for task 1 : [0.0, 63.800000000000004, 63.1, 61.0, 60.0, 61.3, 60.6, 60.199999999999996]
+Acc for task 2 : [0.0, 70.6, 67.5, 68.30000000000001, 68.7, 67.60000000000001, 67.30000000000001]
+Acc for task 3 : [0.0, 71.39999999999999, 68.7, 68.60000000000001, 69.69999999999999, 69.19999999999999]
+Acc for task 4 : [0.0, 73.0, 71.0, 70.8, 72.2]
+Acc for task 5 : [0.0, 69.89999999999999, 68.2, 67.4]
+Acc for task 6 : [0.0, 71.1, 70.0]
+Acc for task 7 : [0.0, 68.4]
+Accuracy for 8 task(s): 	 [Class-IL]: 14.96 % 	 [Task-IL]: 69.03 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.97858, loss_penalty:0.00000
+epoch:10, loss:0.94388, loss_penalty:0.00000
+epoch:20, loss:1.18576, loss_penalty:0.00000
+epoch:30, loss:0.91553, loss_penalty:0.00000
+epoch:40, loss:1.51672, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.57607, loss_penalty:0.00000
+epoch:60, loss:0.83281, loss_penalty:0.00000
+epoch:70, loss:0.94681, loss_penalty:0.00000
+epoch:80, loss:0.67172, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.82113, loss_penalty:0.00000
+train_time 2430.6046674251556 test_time 7.523364782333374
+Acc for task 0 : [0.0, 80.10000000000001, 79.9, 80.2, 78.2, 78.9, 78.9, 77.8, 77.5, 78.3]
+Acc for task 1 : [0.0, 63.800000000000004, 63.1, 61.0, 60.0, 61.3, 60.6, 60.199999999999996, 60.699999999999996]
+Acc for task 2 : [0.0, 70.6, 67.5, 68.30000000000001, 68.7, 67.60000000000001, 67.30000000000001, 67.9]
+Acc for task 3 : [0.0, 71.39999999999999, 68.7, 68.60000000000001, 69.69999999999999, 69.19999999999999, 69.69999999999999]
+Acc for task 4 : [0.0, 73.0, 71.0, 70.8, 72.2, 71.5]
+Acc for task 5 : [0.0, 69.89999999999999, 68.2, 67.4, 68.0]
+Acc for task 6 : [0.0, 71.1, 70.0, 69.19999999999999]
+Acc for task 7 : [0.0, 68.4, 66.7]
+Acc for task 8 : [0.0, 63.0]
+Accuracy for 9 task(s): 	 [Class-IL]: 13.88 % 	 [Task-IL]: 68.33 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.26052, loss_penalty:0.00000
+epoch:10, loss:0.76445, loss_penalty:0.00000
+epoch:20, loss:0.95572, loss_penalty:0.00000
+epoch:30, loss:0.85363, loss_penalty:0.00000
+epoch:40, loss:0.69099, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.72582, loss_penalty:0.00000
+epoch:60, loss:0.75010, loss_penalty:0.00000
+epoch:70, loss:1.08423, loss_penalty:0.00000
+epoch:80, loss:0.65125, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.59890, loss_penalty:0.00000
+train_time 2452.0098004341125 test_time 8.352182626724243
+Acc for task 0 : [0.0, 80.10000000000001, 79.9, 80.2, 78.2, 78.9, 78.9, 77.8, 77.5, 78.3, 76.8]
+Acc for task 1 : [0.0, 63.800000000000004, 63.1, 61.0, 60.0, 61.3, 60.6, 60.199999999999996, 60.699999999999996, 58.099999999999994]
+Acc for task 2 : [0.0, 70.6, 67.5, 68.30000000000001, 68.7, 67.60000000000001, 67.30000000000001, 67.9, 64.4]
+Acc for task 3 : [0.0, 71.39999999999999, 68.7, 68.60000000000001, 69.69999999999999, 69.19999999999999, 69.69999999999999, 68.10000000000001]
+Acc for task 4 : [0.0, 73.0, 71.0, 70.8, 72.2, 71.5, 70.39999999999999]
+Acc for task 5 : [0.0, 69.89999999999999, 68.2, 67.4, 68.0, 67.4]
+Acc for task 6 : [0.0, 71.1, 70.0, 69.19999999999999, 70.7]
+Acc for task 7 : [0.0, 68.4, 66.7, 65.7]
+Acc for task 8 : [0.0, 63.0, 63.2]
+Acc for task 9 : [0.0, 72.39999999999999]
+Accuracy for 10 task(s): 	 [Class-IL]: 12.69 % 	 [Task-IL]: 67.72 %
+Accuracy for 1 task(s): 	 [Class-IL]: 80.1 % 	 [Task-IL]: 80.1 %
+Accuracy for 2 task(s): 	 [Class-IL]: 43.6 % 	 [Task-IL]: 71.85 %
+Accuracy for 3 task(s): 	 [Class-IL]: 31.57 % 	 [Task-IL]: 71.3 %
+Accuracy for 4 task(s): 	 [Class-IL]: 25.1 % 	 [Task-IL]: 69.53 %
+Accuracy for 5 task(s): 	 [Class-IL]: 21.54 % 	 [Task-IL]: 69.78 %
+Accuracy for 6 task(s): 	 [Class-IL]: 18.7 % 	 [Task-IL]: 69.73 %
+Accuracy for 7 task(s): 	 [Class-IL]: 16.31 % 	 [Task-IL]: 69.4 %
+Accuracy for 8 task(s): 	 [Class-IL]: 14.96 % 	 [Task-IL]: 69.03 %
+Accuracy for 9 task(s): 	 [Class-IL]: 13.88 % 	 [Task-IL]: 68.33 %
+Accuracy for 10 task(s): 	 [Class-IL]: 12.69 % 	 [Task-IL]: 67.72 %
+forget_taskil: 2.98 forget_classil: 0.9 bwt_taskil: -2.94 bwt_classil: -0.77
+================================= repeat 2/5 =================================
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.81247, loss_penalty:0.00000
+epoch:10, loss:1.17606, loss_penalty:0.00000
+epoch:20, loss:0.41544, loss_penalty:0.00000
+epoch:30, loss:0.67943, loss_penalty:0.00000
+epoch:40, loss:0.02339, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.07904, loss_penalty:0.00000
+epoch:60, loss:0.01152, loss_penalty:0.00000
+epoch:70, loss:0.00998, loss_penalty:0.00000
+epoch:80, loss:0.00331, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.00423, loss_penalty:0.00000
+train_time 1979.8912606239319 test_time 0.8355426788330078
+Acc for task 0 : [0.0, 80.60000000000001]
+Accuracy for 1 task(s): 	 [Class-IL]: 80.6 % 	 [Task-IL]: 80.6 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.90061, loss_penalty:0.00000
+epoch:10, loss:1.22673, loss_penalty:0.00000
+epoch:20, loss:1.64437, loss_penalty:0.00000
+epoch:30, loss:1.22671, loss_penalty:0.00000
+epoch:40, loss:1.09843, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.95461, loss_penalty:0.00000
+epoch:60, loss:0.76741, loss_penalty:0.00000
+epoch:70, loss:0.95926, loss_penalty:0.00000
+epoch:80, loss:0.66130, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.09388, loss_penalty:0.00000
+train_time 2440.0327751636505 test_time 1.6683156490325928
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001]
+Acc for task 1 : [0.0, 61.5]
+Accuracy for 2 task(s): 	 [Class-IL]: 44.6 % 	 [Task-IL]: 70.9 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.60505, loss_penalty:0.00000
+epoch:10, loss:1.72695, loss_penalty:0.00000
+epoch:20, loss:1.59366, loss_penalty:0.00000
+epoch:30, loss:1.32434, loss_penalty:0.00000
+epoch:40, loss:0.88502, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.43395, loss_penalty:0.00000
+epoch:60, loss:0.91163, loss_penalty:0.00000
+epoch:70, loss:1.04540, loss_penalty:0.00000
+epoch:80, loss:0.54608, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.88340, loss_penalty:0.00000
+train_time 2449.5849874019623 test_time 2.505744218826294
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001, 78.7]
+Acc for task 1 : [0.0, 61.5, 60.4]
+Acc for task 2 : [0.0, 70.39999999999999]
+Accuracy for 3 task(s): 	 [Class-IL]: 31.17 % 	 [Task-IL]: 69.83 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.76500, loss_penalty:0.00000
+epoch:10, loss:1.16350, loss_penalty:0.00000
+epoch:20, loss:0.64014, loss_penalty:0.00000
+epoch:30, loss:0.78402, loss_penalty:0.00000
+epoch:40, loss:0.47915, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.66594, loss_penalty:0.00000
+epoch:60, loss:0.71441, loss_penalty:0.00000
+epoch:70, loss:0.79518, loss_penalty:0.00000
+epoch:80, loss:0.78962, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.74310, loss_penalty:0.00000
+train_time 2429.643232822418 test_time 3.342729330062866
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001, 78.7, 78.9]
+Acc for task 1 : [0.0, 61.5, 60.4, 61.1]
+Acc for task 2 : [0.0, 70.39999999999999, 66.3]
+Acc for task 3 : [0.0, 71.2]
+Accuracy for 4 task(s): 	 [Class-IL]: 26.12 % 	 [Task-IL]: 69.38 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.87050, loss_penalty:0.00000
+epoch:10, loss:1.00645, loss_penalty:0.00000
+epoch:20, loss:1.58391, loss_penalty:0.00000
+epoch:30, loss:1.26969, loss_penalty:0.00000
+epoch:40, loss:1.01973, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.77149, loss_penalty:0.00000
+epoch:60, loss:0.85801, loss_penalty:0.00000
+epoch:70, loss:0.87126, loss_penalty:0.00000
+epoch:80, loss:0.45485, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.60992, loss_penalty:0.00000
+train_time 2434.7543942928314 test_time 4.171244382858276
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001, 78.7, 78.9, 78.3]
+Acc for task 1 : [0.0, 61.5, 60.4, 61.1, 60.699999999999996]
+Acc for task 2 : [0.0, 70.39999999999999, 66.3, 66.9]
+Acc for task 3 : [0.0, 71.2, 69.69999999999999]
+Acc for task 4 : [0.0, 72.6]
+Accuracy for 5 task(s): 	 [Class-IL]: 21.62 % 	 [Task-IL]: 69.64 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.96229, loss_penalty:0.00000
+epoch:10, loss:0.92829, loss_penalty:0.00000
+epoch:20, loss:0.71670, loss_penalty:0.00000
+epoch:30, loss:0.72801, loss_penalty:0.00000
+epoch:40, loss:0.90921, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.95041, loss_penalty:0.00000
+epoch:60, loss:1.17598, loss_penalty:0.00000
+epoch:70, loss:0.59724, loss_penalty:0.00000
+epoch:80, loss:0.69273, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.65244, loss_penalty:0.00000
+train_time 2444.2799849510193 test_time 5.018591403961182
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001, 78.7, 78.9, 78.3, 78.9]
+Acc for task 1 : [0.0, 61.5, 60.4, 61.1, 60.699999999999996, 60.099999999999994]
+Acc for task 2 : [0.0, 70.39999999999999, 66.3, 66.9, 67.30000000000001]
+Acc for task 3 : [0.0, 71.2, 69.69999999999999, 69.8]
+Acc for task 4 : [0.0, 72.6, 70.8]
+Acc for task 5 : [0.0, 69.3]
+Accuracy for 6 task(s): 	 [Class-IL]: 19.27 % 	 [Task-IL]: 69.37 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.38068, loss_penalty:0.00000
+epoch:10, loss:1.23500, loss_penalty:0.00000
+epoch:20, loss:1.45119, loss_penalty:0.00000
+epoch:30, loss:0.80214, loss_penalty:0.00000
+epoch:40, loss:0.65160, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.86807, loss_penalty:0.00000
+epoch:60, loss:0.84328, loss_penalty:0.00000
+epoch:70, loss:0.57239, loss_penalty:0.00000
+epoch:80, loss:0.71790, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.45771, loss_penalty:0.00000
+train_time 2442.818815946579 test_time 5.850658416748047
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001, 78.7, 78.9, 78.3, 78.9, 78.9]
+Acc for task 1 : [0.0, 61.5, 60.4, 61.1, 60.699999999999996, 60.099999999999994, 62.1]
+Acc for task 2 : [0.0, 70.39999999999999, 66.3, 66.9, 67.30000000000001, 65.3]
+Acc for task 3 : [0.0, 71.2, 69.69999999999999, 69.8, 70.5]
+Acc for task 4 : [0.0, 72.6, 70.8, 68.30000000000001]
+Acc for task 5 : [0.0, 69.3, 68.30000000000001]
+Acc for task 6 : [0.0, 70.39999999999999]
+Accuracy for 7 task(s): 	 [Class-IL]: 17.14 % 	 [Task-IL]: 69.11 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.57506, loss_penalty:0.00000
+epoch:10, loss:1.11658, loss_penalty:0.00000
+epoch:20, loss:0.65485, loss_penalty:0.00000
+epoch:30, loss:1.39084, loss_penalty:0.00000
+epoch:40, loss:0.71377, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.68290, loss_penalty:0.00000
+epoch:60, loss:0.86539, loss_penalty:0.00000
+epoch:70, loss:1.50626, loss_penalty:0.00000
+epoch:80, loss:1.45089, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.92143, loss_penalty:0.00000
+train_time 2432.0617339611053 test_time 6.674028396606445
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001, 78.7, 78.9, 78.3, 78.9, 78.9, 76.8]
+Acc for task 1 : [0.0, 61.5, 60.4, 61.1, 60.699999999999996, 60.099999999999994, 62.1, 61.6]
+Acc for task 2 : [0.0, 70.39999999999999, 66.3, 66.9, 67.30000000000001, 65.3, 66.3]
+Acc for task 3 : [0.0, 71.2, 69.69999999999999, 69.8, 70.5, 69.19999999999999]
+Acc for task 4 : [0.0, 72.6, 70.8, 68.30000000000001, 69.1]
+Acc for task 5 : [0.0, 69.3, 68.30000000000001, 65.9]
+Acc for task 6 : [0.0, 70.39999999999999, 68.2]
+Acc for task 7 : [0.0, 68.30000000000001]
+Accuracy for 8 task(s): 	 [Class-IL]: 15.55 % 	 [Task-IL]: 68.18 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.67829, loss_penalty:0.00000
+epoch:10, loss:1.47946, loss_penalty:0.00000
+epoch:20, loss:0.94913, loss_penalty:0.00000
+epoch:30, loss:0.99292, loss_penalty:0.00000
+epoch:40, loss:1.05030, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.09355, loss_penalty:0.00000
+epoch:60, loss:1.12057, loss_penalty:0.00000
+epoch:70, loss:1.22479, loss_penalty:0.00000
+epoch:80, loss:1.23579, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.13793, loss_penalty:0.00000
+train_time 2427.623519897461 test_time 7.5260350704193115
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001, 78.7, 78.9, 78.3, 78.9, 78.9, 76.8, 78.7]
+Acc for task 1 : [0.0, 61.5, 60.4, 61.1, 60.699999999999996, 60.099999999999994, 62.1, 61.6, 61.8]
+Acc for task 2 : [0.0, 70.39999999999999, 66.3, 66.9, 67.30000000000001, 65.3, 66.3, 65.5]
+Acc for task 3 : [0.0, 71.2, 69.69999999999999, 69.8, 70.5, 69.19999999999999, 70.19999999999999]
+Acc for task 4 : [0.0, 72.6, 70.8, 68.30000000000001, 69.1, 69.8]
+Acc for task 5 : [0.0, 69.3, 68.30000000000001, 65.9, 66.3]
+Acc for task 6 : [0.0, 70.39999999999999, 68.2, 70.1]
+Acc for task 7 : [0.0, 68.30000000000001, 66.7]
+Acc for task 8 : [0.0, 64.0]
+Accuracy for 9 task(s): 	 [Class-IL]: 14.73 % 	 [Task-IL]: 68.12 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.55094, loss_penalty:0.00000
+epoch:10, loss:0.91005, loss_penalty:0.00000
+epoch:20, loss:1.05105, loss_penalty:0.00000
+epoch:30, loss:0.81487, loss_penalty:0.00000
+epoch:40, loss:0.72721, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.10451, loss_penalty:0.00000
+epoch:60, loss:0.68305, loss_penalty:0.00000
+epoch:70, loss:1.04640, loss_penalty:0.00000
+epoch:80, loss:0.93166, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.59538, loss_penalty:0.00000
+train_time 2434.761741876602 test_time 8.355536699295044
+Acc for task 0 : [0.0, 80.60000000000001, 80.30000000000001, 78.7, 78.9, 78.3, 78.9, 78.9, 76.8, 78.7, 78.0]
+Acc for task 1 : [0.0, 61.5, 60.4, 61.1, 60.699999999999996, 60.099999999999994, 62.1, 61.6, 61.8, 60.3]
+Acc for task 2 : [0.0, 70.39999999999999, 66.3, 66.9, 67.30000000000001, 65.3, 66.3, 65.5, 64.60000000000001]
+Acc for task 3 : [0.0, 71.2, 69.69999999999999, 69.8, 70.5, 69.19999999999999, 70.19999999999999, 68.4]
+Acc for task 4 : [0.0, 72.6, 70.8, 68.30000000000001, 69.1, 69.8, 69.69999999999999]
+Acc for task 5 : [0.0, 69.3, 68.30000000000001, 65.9, 66.3, 66.4]
+Acc for task 6 : [0.0, 70.39999999999999, 68.2, 70.1, 69.69999999999999]
+Acc for task 7 : [0.0, 68.30000000000001, 66.7, 65.5]
+Acc for task 8 : [0.0, 64.0, 63.1]
+Acc for task 9 : [0.0, 72.6]
+Accuracy for 10 task(s): 	 [Class-IL]: 13.49 % 	 [Task-IL]: 67.83 %
+Accuracy for 1 task(s): 	 [Class-IL]: 80.6 % 	 [Task-IL]: 80.6 %
+Accuracy for 2 task(s): 	 [Class-IL]: 44.6 % 	 [Task-IL]: 70.9 %
+Accuracy for 3 task(s): 	 [Class-IL]: 31.17 % 	 [Task-IL]: 69.83 %
+Accuracy for 4 task(s): 	 [Class-IL]: 26.12 % 	 [Task-IL]: 69.38 %
+Accuracy for 5 task(s): 	 [Class-IL]: 21.62 % 	 [Task-IL]: 69.64 %
+Accuracy for 6 task(s): 	 [Class-IL]: 19.27 % 	 [Task-IL]: 69.37 %
+Accuracy for 7 task(s): 	 [Class-IL]: 17.14 % 	 [Task-IL]: 69.11 %
+Accuracy for 8 task(s): 	 [Class-IL]: 15.55 % 	 [Task-IL]: 68.18 %
+Accuracy for 9 task(s): 	 [Class-IL]: 14.73 % 	 [Task-IL]: 68.12 %
+Accuracy for 10 task(s): 	 [Class-IL]: 13.49 % 	 [Task-IL]: 67.83 %
+forget_taskil: 2.58 forget_classil: 0.79 bwt_taskil: -2.51 bwt_classil: -0.29
+================================= repeat 3/5 =================================
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:2.02548, loss_penalty:0.00000
+epoch:10, loss:0.68993, loss_penalty:0.00000
+epoch:20, loss:0.55253, loss_penalty:0.00000
+epoch:30, loss:0.19745, loss_penalty:0.00000
+epoch:40, loss:0.02480, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.02488, loss_penalty:0.00000
+epoch:60, loss:0.02186, loss_penalty:0.00000
+epoch:70, loss:0.00800, loss_penalty:0.00000
+epoch:80, loss:0.00081, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.02040, loss_penalty:0.00000
+train_time 1971.8729255199432 test_time 0.8379456996917725
+Acc for task 0 : [0.0, 81.0]
+Accuracy for 1 task(s): 	 [Class-IL]: 81.0 % 	 [Task-IL]: 81.0 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.87414, loss_penalty:0.00000
+epoch:10, loss:1.02620, loss_penalty:0.00000
+epoch:20, loss:1.68338, loss_penalty:0.00000
+epoch:30, loss:2.19713, loss_penalty:0.00000
+epoch:40, loss:1.46014, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.75318, loss_penalty:0.00000
+epoch:60, loss:0.65762, loss_penalty:0.00000
+epoch:70, loss:1.20807, loss_penalty:0.00000
+epoch:80, loss:1.10664, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.37737, loss_penalty:0.00000
+train_time 2421.3012754917145 test_time 1.686131238937378
+Acc for task 0 : [0.0, 81.0, 81.3]
+Acc for task 1 : [0.0, 63.4]
+Accuracy for 2 task(s): 	 [Class-IL]: 44.4 % 	 [Task-IL]: 72.35 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.37997, loss_penalty:0.00000
+epoch:10, loss:1.48201, loss_penalty:0.00000
+epoch:20, loss:0.89368, loss_penalty:0.00000
+epoch:30, loss:0.74954, loss_penalty:0.00000
+epoch:40, loss:1.28119, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.45969, loss_penalty:0.00000
+epoch:60, loss:1.35622, loss_penalty:0.00000
+epoch:70, loss:0.99836, loss_penalty:0.00000
+epoch:80, loss:1.16877, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.76336, loss_penalty:0.00000
+train_time 2431.3856744766235 test_time 2.5116450786590576
+Acc for task 0 : [0.0, 81.0, 81.3, 79.2]
+Acc for task 1 : [0.0, 63.4, 63.4]
+Acc for task 2 : [0.0, 70.0]
+Accuracy for 3 task(s): 	 [Class-IL]: 31.57 % 	 [Task-IL]: 70.87 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.31339, loss_penalty:0.00000
+epoch:10, loss:0.92521, loss_penalty:0.00000
+epoch:20, loss:0.64231, loss_penalty:0.00000
+epoch:30, loss:0.70007, loss_penalty:0.00000
+epoch:40, loss:0.39057, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.10187, loss_penalty:0.00000
+epoch:60, loss:0.90294, loss_penalty:0.00000
+epoch:70, loss:0.59151, loss_penalty:0.00000
+epoch:80, loss:0.66481, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.87788, loss_penalty:0.00000
+train_time 2417.082257270813 test_time 3.3579254150390625
+Acc for task 0 : [0.0, 81.0, 81.3, 79.2, 78.4]
+Acc for task 1 : [0.0, 63.4, 63.4, 63.0]
+Acc for task 2 : [0.0, 70.0, 64.60000000000001]
+Acc for task 3 : [0.0, 73.0]
+Accuracy for 4 task(s): 	 [Class-IL]: 24.6 % 	 [Task-IL]: 69.75 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.29307, loss_penalty:0.00000
+epoch:10, loss:1.53954, loss_penalty:0.00000
+epoch:20, loss:1.80364, loss_penalty:0.00000
+epoch:30, loss:1.16787, loss_penalty:0.00000
+epoch:40, loss:1.26917, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.26668, loss_penalty:0.00000
+epoch:60, loss:0.60892, loss_penalty:0.00000
+epoch:70, loss:0.67794, loss_penalty:0.00000
+epoch:80, loss:1.04179, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.81745, loss_penalty:0.00000
+train_time 2424.565378665924 test_time 4.182689666748047
+Acc for task 0 : [0.0, 81.0, 81.3, 79.2, 78.4, 79.0]
+Acc for task 1 : [0.0, 63.4, 63.4, 63.0, 61.3]
+Acc for task 2 : [0.0, 70.0, 64.60000000000001, 68.89999999999999]
+Acc for task 3 : [0.0, 73.0, 68.60000000000001]
+Acc for task 4 : [0.0, 73.4]
+Accuracy for 5 task(s): 	 [Class-IL]: 21.62 % 	 [Task-IL]: 70.24 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.25245, loss_penalty:0.00000
+epoch:10, loss:0.77231, loss_penalty:0.00000
+epoch:20, loss:0.98921, loss_penalty:0.00000
+epoch:30, loss:1.12142, loss_penalty:0.00000
+epoch:40, loss:0.97288, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.14388, loss_penalty:0.00000
+epoch:60, loss:0.94747, loss_penalty:0.00000
+epoch:70, loss:0.94438, loss_penalty:0.00000
+epoch:80, loss:0.94295, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.67982, loss_penalty:0.00000
+train_time 2427.0987164974213 test_time 5.05125617980957
+Acc for task 0 : [0.0, 81.0, 81.3, 79.2, 78.4, 79.0, 78.8]
+Acc for task 1 : [0.0, 63.4, 63.4, 63.0, 61.3, 61.8]
+Acc for task 2 : [0.0, 70.0, 64.60000000000001, 68.89999999999999, 67.10000000000001]
+Acc for task 3 : [0.0, 73.0, 68.60000000000001, 67.60000000000001]
+Acc for task 4 : [0.0, 73.4, 72.8]
+Acc for task 5 : [0.0, 69.69999999999999]
+Accuracy for 6 task(s): 	 [Class-IL]: 18.82 % 	 [Task-IL]: 69.63 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.09142, loss_penalty:0.00000
+epoch:10, loss:1.15748, loss_penalty:0.00000
+epoch:20, loss:1.46772, loss_penalty:0.00000
+epoch:30, loss:1.59831, loss_penalty:0.00000
+epoch:40, loss:1.09232, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.24755, loss_penalty:0.00000
+epoch:60, loss:1.10351, loss_penalty:0.00000
+epoch:70, loss:1.31025, loss_penalty:0.00000
+epoch:80, loss:1.07173, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.58082, loss_penalty:0.00000
+train_time 2413.5308208465576 test_time 5.99187707901001
+Acc for task 0 : [0.0, 81.0, 81.3, 79.2, 78.4, 79.0, 78.8, 78.2]
+Acc for task 1 : [0.0, 63.4, 63.4, 63.0, 61.3, 61.8, 61.3]
+Acc for task 2 : [0.0, 70.0, 64.60000000000001, 68.89999999999999, 67.10000000000001, 67.60000000000001]
+Acc for task 3 : [0.0, 73.0, 68.60000000000001, 67.60000000000001, 71.3]
+Acc for task 4 : [0.0, 73.4, 72.8, 72.2]
+Acc for task 5 : [0.0, 69.69999999999999, 69.19999999999999]
+Acc for task 6 : [0.0, 71.0]
+Accuracy for 7 task(s): 	 [Class-IL]: 16.81 % 	 [Task-IL]: 70.11 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.16973, loss_penalty:0.00000
+epoch:10, loss:1.06215, loss_penalty:0.00000
+epoch:20, loss:1.46322, loss_penalty:0.00000
+epoch:30, loss:1.68405, loss_penalty:0.00000
+epoch:40, loss:0.75395, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.89364, loss_penalty:0.00000
+epoch:60, loss:0.85923, loss_penalty:0.00000
+epoch:70, loss:0.80220, loss_penalty:0.00000
+epoch:80, loss:1.37597, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.36460, loss_penalty:0.00000
+train_time 2423.4753923416138 test_time 6.816054105758667
+Acc for task 0 : [0.0, 81.0, 81.3, 79.2, 78.4, 79.0, 78.8, 78.2, 77.10000000000001]
+Acc for task 1 : [0.0, 63.4, 63.4, 63.0, 61.3, 61.8, 61.3, 59.599999999999994]
+Acc for task 2 : [0.0, 70.0, 64.60000000000001, 68.89999999999999, 67.10000000000001, 67.60000000000001, 66.9]
+Acc for task 3 : [0.0, 73.0, 68.60000000000001, 67.60000000000001, 71.3, 67.5]
+Acc for task 4 : [0.0, 73.4, 72.8, 72.2, 70.3]
+Acc for task 5 : [0.0, 69.69999999999999, 69.19999999999999, 66.60000000000001]
+Acc for task 6 : [0.0, 71.0, 70.39999999999999]
+Acc for task 7 : [0.0, 69.6]
+Accuracy for 8 task(s): 	 [Class-IL]: 15.36 % 	 [Task-IL]: 68.5 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.95571, loss_penalty:0.00000
+epoch:10, loss:1.42111, loss_penalty:0.00000
+epoch:20, loss:0.99375, loss_penalty:0.00000
+epoch:30, loss:0.96994, loss_penalty:0.00000
+epoch:40, loss:0.89732, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.64335, loss_penalty:0.00000
+epoch:60, loss:1.09362, loss_penalty:0.00000
+epoch:70, loss:1.27773, loss_penalty:0.00000
+epoch:80, loss:1.14101, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.93268, loss_penalty:0.00000
+train_time 2427.15243434906 test_time 7.523797035217285
+Acc for task 0 : [0.0, 81.0, 81.3, 79.2, 78.4, 79.0, 78.8, 78.2, 77.10000000000001, 77.7]
+Acc for task 1 : [0.0, 63.4, 63.4, 63.0, 61.3, 61.8, 61.3, 59.599999999999994, 61.199999999999996]
+Acc for task 2 : [0.0, 70.0, 64.60000000000001, 68.89999999999999, 67.10000000000001, 67.60000000000001, 66.9, 67.10000000000001]
+Acc for task 3 : [0.0, 73.0, 68.60000000000001, 67.60000000000001, 71.3, 67.5, 68.89999999999999]
+Acc for task 4 : [0.0, 73.4, 72.8, 72.2, 70.3, 71.1]
+Acc for task 5 : [0.0, 69.69999999999999, 69.19999999999999, 66.60000000000001, 66.7]
+Acc for task 6 : [0.0, 71.0, 70.39999999999999, 69.69999999999999]
+Acc for task 7 : [0.0, 69.6, 68.5]
+Acc for task 8 : [0.0, 62.6]
+Accuracy for 9 task(s): 	 [Class-IL]: 14.36 % 	 [Task-IL]: 68.17 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.81521, loss_penalty:0.00000
+epoch:10, loss:0.92780, loss_penalty:0.00000
+epoch:20, loss:0.62045, loss_penalty:0.00000
+epoch:30, loss:1.17479, loss_penalty:0.00000
+epoch:40, loss:0.82799, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.54927, loss_penalty:0.00000
+epoch:60, loss:1.14963, loss_penalty:0.00000
+epoch:70, loss:0.80592, loss_penalty:0.00000
+epoch:80, loss:1.27439, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.74932, loss_penalty:0.00000
+train_time 2421.877325296402 test_time 8.355811834335327
+Acc for task 0 : [0.0, 81.0, 81.3, 79.2, 78.4, 79.0, 78.8, 78.2, 77.10000000000001, 77.7, 77.60000000000001]
+Acc for task 1 : [0.0, 63.4, 63.4, 63.0, 61.3, 61.8, 61.3, 59.599999999999994, 61.199999999999996, 60.3]
+Acc for task 2 : [0.0, 70.0, 64.60000000000001, 68.89999999999999, 67.10000000000001, 67.60000000000001, 66.9, 67.10000000000001, 65.0]
+Acc for task 3 : [0.0, 73.0, 68.60000000000001, 67.60000000000001, 71.3, 67.5, 68.89999999999999, 66.60000000000001]
+Acc for task 4 : [0.0, 73.4, 72.8, 72.2, 70.3, 71.1, 69.69999999999999]
+Acc for task 5 : [0.0, 69.69999999999999, 69.19999999999999, 66.60000000000001, 66.7, 66.4]
+Acc for task 6 : [0.0, 71.0, 70.39999999999999, 69.69999999999999, 69.1]
+Acc for task 7 : [0.0, 69.6, 68.5, 67.0]
+Acc for task 8 : [0.0, 62.6, 61.4]
+Acc for task 9 : [0.0, 73.0]
+Accuracy for 10 task(s): 	 [Class-IL]: 13.24 % 	 [Task-IL]: 67.61 %
+Accuracy for 1 task(s): 	 [Class-IL]: 81.0 % 	 [Task-IL]: 81.0 %
+Accuracy for 2 task(s): 	 [Class-IL]: 44.4 % 	 [Task-IL]: 72.35 %
+Accuracy for 3 task(s): 	 [Class-IL]: 31.57 % 	 [Task-IL]: 70.87 %
+Accuracy for 4 task(s): 	 [Class-IL]: 24.6 % 	 [Task-IL]: 69.75 %
+Accuracy for 5 task(s): 	 [Class-IL]: 21.62 % 	 [Task-IL]: 70.24 %
+Accuracy for 6 task(s): 	 [Class-IL]: 18.82 % 	 [Task-IL]: 69.63 %
+Accuracy for 7 task(s): 	 [Class-IL]: 16.81 % 	 [Task-IL]: 70.11 %
+Accuracy for 8 task(s): 	 [Class-IL]: 15.36 % 	 [Task-IL]: 68.5 %
+Accuracy for 9 task(s): 	 [Class-IL]: 14.36 % 	 [Task-IL]: 68.17 %
+Accuracy for 10 task(s): 	 [Class-IL]: 13.24 % 	 [Task-IL]: 67.61 %
+forget_taskil: 3.43 forget_classil: 0.88 bwt_taskil: -3.4 bwt_classil: 0.07
+================================= repeat 4/5 =================================
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:2.32907, loss_penalty:0.00000
+epoch:10, loss:1.51161, loss_penalty:0.00000
+epoch:20, loss:0.34056, loss_penalty:0.00000
+epoch:30, loss:0.25206, loss_penalty:0.00000
+epoch:40, loss:0.10048, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.09611, loss_penalty:0.00000
+epoch:60, loss:0.01217, loss_penalty:0.00000
+epoch:70, loss:0.00158, loss_penalty:0.00000
+epoch:80, loss:0.00515, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.00175, loss_penalty:0.00000
+train_time 1949.4013385772705 test_time 0.8356618881225586
+Acc for task 0 : [0.0, 79.80000000000001]
+Accuracy for 1 task(s): 	 [Class-IL]: 79.8 % 	 [Task-IL]: 79.8 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:2.28562, loss_penalty:0.00000
+epoch:10, loss:1.18056, loss_penalty:0.00000
+epoch:20, loss:0.75187, loss_penalty:0.00000
+epoch:30, loss:1.07738, loss_penalty:0.00000
+epoch:40, loss:0.88076, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.53477, loss_penalty:0.00000
+epoch:60, loss:1.17229, loss_penalty:0.00000
+epoch:70, loss:1.03999, loss_penalty:0.00000
+epoch:80, loss:1.08831, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.81273, loss_penalty:0.00000
+train_time 2408.9435369968414 test_time 1.6710772514343262
+Acc for task 0 : [0.0, 79.80000000000001, 79.3]
+Acc for task 1 : [0.0, 64.1]
+Accuracy for 2 task(s): 	 [Class-IL]: 44.7 % 	 [Task-IL]: 71.7 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.73288, loss_penalty:0.00000
+epoch:10, loss:1.77533, loss_penalty:0.00000
+epoch:20, loss:1.13613, loss_penalty:0.00000
+epoch:30, loss:0.69968, loss_penalty:0.00000
+epoch:40, loss:0.65571, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.24520, loss_penalty:0.00000
+epoch:60, loss:0.83407, loss_penalty:0.00000
+epoch:70, loss:1.40971, loss_penalty:0.00000
+epoch:80, loss:1.31342, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.21018, loss_penalty:0.00000
+train_time 2397.440655708313 test_time 2.5085220336914062
+Acc for task 0 : [0.0, 79.80000000000001, 79.3, 79.80000000000001]
+Acc for task 1 : [0.0, 64.1, 62.4]
+Acc for task 2 : [0.0, 69.1]
+Accuracy for 3 task(s): 	 [Class-IL]: 32.73 % 	 [Task-IL]: 70.43 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:2.12241, loss_penalty:0.00000
+epoch:10, loss:0.70886, loss_penalty:0.00000
+epoch:20, loss:1.08950, loss_penalty:0.00000
+epoch:30, loss:0.96805, loss_penalty:0.00000
+epoch:40, loss:1.00491, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.72586, loss_penalty:0.00000
+epoch:60, loss:1.15015, loss_penalty:0.00000
+epoch:70, loss:0.89262, loss_penalty:0.00000
+epoch:80, loss:0.34517, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.60903, loss_penalty:0.00000
+train_time 2422.5234684944153 test_time 3.347951889038086
+Acc for task 0 : [0.0, 79.80000000000001, 79.3, 79.80000000000001, 78.60000000000001]
+Acc for task 1 : [0.0, 64.1, 62.4, 61.8]
+Acc for task 2 : [0.0, 69.1, 63.9]
+Acc for task 3 : [0.0, 71.89999999999999]
+Accuracy for 4 task(s): 	 [Class-IL]: 26.82 % 	 [Task-IL]: 69.05 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.51728, loss_penalty:0.00000
+epoch:10, loss:1.81564, loss_penalty:0.00000
+epoch:20, loss:1.00293, loss_penalty:0.00000
+epoch:30, loss:1.43638, loss_penalty:0.00000
+epoch:40, loss:0.80344, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.32304, loss_penalty:0.00000
+epoch:60, loss:0.62706, loss_penalty:0.00000
+epoch:70, loss:1.10309, loss_penalty:0.00000
+epoch:80, loss:0.84251, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.62973, loss_penalty:0.00000
+train_time 2419.3502662181854 test_time 4.176617622375488
+Acc for task 0 : [0.0, 79.80000000000001, 79.3, 79.80000000000001, 78.60000000000001, 78.60000000000001]
+Acc for task 1 : [0.0, 64.1, 62.4, 61.8, 61.6]
+Acc for task 2 : [0.0, 69.1, 63.9, 67.10000000000001]
+Acc for task 3 : [0.0, 71.89999999999999, 70.5]
+Acc for task 4 : [0.0, 71.3]
+Accuracy for 5 task(s): 	 [Class-IL]: 22.66 % 	 [Task-IL]: 69.82 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.16970, loss_penalty:0.00000
+epoch:10, loss:1.10295, loss_penalty:0.00000
+epoch:20, loss:0.85637, loss_penalty:0.00000
+epoch:30, loss:1.10750, loss_penalty:0.00000
+epoch:40, loss:1.16945, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.89187, loss_penalty:0.00000
+epoch:60, loss:0.68322, loss_penalty:0.00000
+epoch:70, loss:0.73647, loss_penalty:0.00000
+epoch:80, loss:1.09161, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.97870, loss_penalty:0.00000
+train_time 2414.2190279960632 test_time 5.006950616836548
+Acc for task 0 : [0.0, 79.80000000000001, 79.3, 79.80000000000001, 78.60000000000001, 78.60000000000001, 79.0]
+Acc for task 1 : [0.0, 64.1, 62.4, 61.8, 61.6, 61.8]
+Acc for task 2 : [0.0, 69.1, 63.9, 67.10000000000001, 66.4]
+Acc for task 3 : [0.0, 71.89999999999999, 70.5, 70.6]
+Acc for task 4 : [0.0, 71.3, 69.8]
+Acc for task 5 : [0.0, 69.6]
+Accuracy for 6 task(s): 	 [Class-IL]: 19.8 % 	 [Task-IL]: 69.53 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.72756, loss_penalty:0.00000
+epoch:10, loss:0.60146, loss_penalty:0.00000
+epoch:20, loss:0.89120, loss_penalty:0.00000
+epoch:30, loss:1.34616, loss_penalty:0.00000
+epoch:40, loss:1.16397, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.32470, loss_penalty:0.00000
+epoch:60, loss:0.98457, loss_penalty:0.00000
+epoch:70, loss:0.81016, loss_penalty:0.00000
+epoch:80, loss:0.96589, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.04416, loss_penalty:0.00000
+train_time 2383.7068037986755 test_time 6.111848592758179
+Acc for task 0 : [0.0, 79.80000000000001, 79.3, 79.80000000000001, 78.60000000000001, 78.60000000000001, 79.0, 79.60000000000001]
+Acc for task 1 : [0.0, 64.1, 62.4, 61.8, 61.6, 61.8, 59.4]
+Acc for task 2 : [0.0, 69.1, 63.9, 67.10000000000001, 66.4, 64.9]
+Acc for task 3 : [0.0, 71.89999999999999, 70.5, 70.6, 71.39999999999999]
+Acc for task 4 : [0.0, 71.3, 69.8, 67.7]
+Acc for task 5 : [0.0, 69.6, 67.60000000000001]
+Acc for task 6 : [0.0, 70.5]
+Accuracy for 7 task(s): 	 [Class-IL]: 18.23 % 	 [Task-IL]: 68.73 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.76365, loss_penalty:0.00000
+epoch:10, loss:1.19764, loss_penalty:0.00000
+epoch:20, loss:1.04150, loss_penalty:0.00000
+epoch:30, loss:0.97835, loss_penalty:0.00000
+epoch:40, loss:0.60474, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.18919, loss_penalty:0.00000
+epoch:60, loss:0.56929, loss_penalty:0.00000
+epoch:70, loss:1.21275, loss_penalty:0.00000
+epoch:80, loss:0.46618, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.90033, loss_penalty:0.00000
+train_time 2364.494081258774 test_time 6.882077217102051
+Acc for task 0 : [0.0, 79.80000000000001, 79.3, 79.80000000000001, 78.60000000000001, 78.60000000000001, 79.0, 79.60000000000001, 77.9]
+Acc for task 1 : [0.0, 64.1, 62.4, 61.8, 61.6, 61.8, 59.4, 60.699999999999996]
+Acc for task 2 : [0.0, 69.1, 63.9, 67.10000000000001, 66.4, 64.9, 64.60000000000001]
+Acc for task 3 : [0.0, 71.89999999999999, 70.5, 70.6, 71.39999999999999, 69.19999999999999]
+Acc for task 4 : [0.0, 71.3, 69.8, 67.7, 69.1]
+Acc for task 5 : [0.0, 69.6, 67.60000000000001, 66.60000000000001]
+Acc for task 6 : [0.0, 70.5, 71.39999999999999]
+Acc for task 7 : [0.0, 68.5]
+Accuracy for 8 task(s): 	 [Class-IL]: 16.21 % 	 [Task-IL]: 68.5 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:2.23410, loss_penalty:0.00000
+epoch:10, loss:1.62873, loss_penalty:0.00000
+epoch:20, loss:1.03382, loss_penalty:0.00000
+epoch:30, loss:1.37746, loss_penalty:0.00000
+epoch:40, loss:1.24014, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.30201, loss_penalty:0.00000
+epoch:60, loss:0.88405, loss_penalty:0.00000
+epoch:70, loss:1.03607, loss_penalty:0.00000
+epoch:80, loss:1.19977, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.45018, loss_penalty:0.00000
+train_time 2455.4050137996674 test_time 7.900324583053589
+Acc for task 0 : [0.0, 79.80000000000001, 79.3, 79.80000000000001, 78.60000000000001, 78.60000000000001, 79.0, 79.60000000000001, 77.9, 78.10000000000001]
+Acc for task 1 : [0.0, 64.1, 62.4, 61.8, 61.6, 61.8, 59.4, 60.699999999999996, 61.1]
+Acc for task 2 : [0.0, 69.1, 63.9, 67.10000000000001, 66.4, 64.9, 64.60000000000001, 64.5]
+Acc for task 3 : [0.0, 71.89999999999999, 70.5, 70.6, 71.39999999999999, 69.19999999999999, 68.5]
+Acc for task 4 : [0.0, 71.3, 69.8, 67.7, 69.1, 70.1]
+Acc for task 5 : [0.0, 69.6, 67.60000000000001, 66.60000000000001, 67.80000000000001]
+Acc for task 6 : [0.0, 70.5, 71.39999999999999, 70.1]
+Acc for task 7 : [0.0, 68.5, 66.2]
+Acc for task 8 : [0.0, 63.7]
+Accuracy for 9 task(s): 	 [Class-IL]: 15.23 % 	 [Task-IL]: 67.79 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.50393, loss_penalty:0.00000
+epoch:10, loss:0.78471, loss_penalty:0.00000
+epoch:20, loss:1.01671, loss_penalty:0.00000
+epoch:30, loss:1.13979, loss_penalty:0.00000
+epoch:40, loss:1.26339, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.69548, loss_penalty:0.00000
+epoch:60, loss:0.65834, loss_penalty:0.00000
+epoch:70, loss:0.76716, loss_penalty:0.00000
+epoch:80, loss:0.89393, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.90999, loss_penalty:0.00000
+train_time 2452.3263278007507 test_time 8.667710304260254
+Acc for task 0 : [0.0, 79.80000000000001, 79.3, 79.80000000000001, 78.60000000000001, 78.60000000000001, 79.0, 79.60000000000001, 77.9, 78.10000000000001, 77.7]
+Acc for task 1 : [0.0, 64.1, 62.4, 61.8, 61.6, 61.8, 59.4, 60.699999999999996, 61.1, 60.3]
+Acc for task 2 : [0.0, 69.1, 63.9, 67.10000000000001, 66.4, 64.9, 64.60000000000001, 64.5, 64.4]
+Acc for task 3 : [0.0, 71.89999999999999, 70.5, 70.6, 71.39999999999999, 69.19999999999999, 68.5, 67.60000000000001]
+Acc for task 4 : [0.0, 71.3, 69.8, 67.7, 69.1, 70.1, 68.8]
+Acc for task 5 : [0.0, 69.6, 67.60000000000001, 66.60000000000001, 67.80000000000001, 66.4]
+Acc for task 6 : [0.0, 70.5, 71.39999999999999, 70.1, 69.1]
+Acc for task 7 : [0.0, 68.5, 66.2, 66.4]
+Acc for task 8 : [0.0, 63.7, 61.3]
+Acc for task 9 : [0.0, 74.2]
+Accuracy for 10 task(s): 	 [Class-IL]: 14.14 % 	 [Task-IL]: 67.62 %
+Accuracy for 1 task(s): 	 [Class-IL]: 79.8 % 	 [Task-IL]: 79.8 %
+Accuracy for 2 task(s): 	 [Class-IL]: 44.7 % 	 [Task-IL]: 71.7 %
+Accuracy for 3 task(s): 	 [Class-IL]: 32.73 % 	 [Task-IL]: 70.43 %
+Accuracy for 4 task(s): 	 [Class-IL]: 26.82 % 	 [Task-IL]: 69.05 %
+Accuracy for 5 task(s): 	 [Class-IL]: 22.66 % 	 [Task-IL]: 69.82 %
+Accuracy for 6 task(s): 	 [Class-IL]: 19.8 % 	 [Task-IL]: 69.53 %
+Accuracy for 7 task(s): 	 [Class-IL]: 18.23 % 	 [Task-IL]: 68.73 %
+Accuracy for 8 task(s): 	 [Class-IL]: 16.21 % 	 [Task-IL]: 68.5 %
+Accuracy for 9 task(s): 	 [Class-IL]: 15.23 % 	 [Task-IL]: 67.79 %
+Accuracy for 10 task(s): 	 [Class-IL]: 14.14 % 	 [Task-IL]: 67.62 %
+forget_taskil: 3.04 forget_classil: 0.77 bwt_taskil: -2.94 bwt_classil: -0.43
+================================= repeat 5/5 =================================
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:2.04866, loss_penalty:0.00000
+epoch:10, loss:1.25345, loss_penalty:0.00000
+epoch:20, loss:0.30361, loss_penalty:0.00000
+epoch:30, loss:0.53253, loss_penalty:0.00000
+epoch:40, loss:0.05230, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.01328, loss_penalty:0.00000
+epoch:60, loss:0.00613, loss_penalty:0.00000
+epoch:70, loss:0.01287, loss_penalty:0.00000
+epoch:80, loss:0.00662, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.00240, loss_penalty:0.00000
+train_time 1934.2137155532837 test_time 0.8550291061401367
+Acc for task 0 : [0.0, 79.5]
+Accuracy for 1 task(s): 	 [Class-IL]: 79.5 % 	 [Task-IL]: 79.5 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.74965, loss_penalty:0.00000
+epoch:10, loss:1.81624, loss_penalty:0.00000
+epoch:20, loss:1.07731, loss_penalty:0.00000
+epoch:30, loss:1.73712, loss_penalty:0.00000
+epoch:40, loss:0.91678, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.92984, loss_penalty:0.00000
+epoch:60, loss:1.60064, loss_penalty:0.00000
+epoch:70, loss:0.72289, loss_penalty:0.00000
+epoch:80, loss:1.12756, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.59743, loss_penalty:0.00000
+train_time 2329.653149366379 test_time 1.6770029067993164
+Acc for task 0 : [0.0, 79.5, 78.8]
+Acc for task 1 : [0.0, 63.9]
+Accuracy for 2 task(s): 	 [Class-IL]: 44.45 % 	 [Task-IL]: 71.35 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.84825, loss_penalty:0.00000
+epoch:10, loss:0.68331, loss_penalty:0.00000
+epoch:20, loss:1.09052, loss_penalty:0.00000
+epoch:30, loss:1.40387, loss_penalty:0.00000
+epoch:40, loss:0.86165, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.59242, loss_penalty:0.00000
+epoch:60, loss:1.37278, loss_penalty:0.00000
+epoch:70, loss:0.61957, loss_penalty:0.00000
+epoch:80, loss:0.54392, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.40044, loss_penalty:0.00000
+train_time 2337.4193296432495 test_time 2.5034492015838623
+Acc for task 0 : [0.0, 79.5, 78.8, 79.10000000000001]
+Acc for task 1 : [0.0, 63.9, 63.1]
+Acc for task 2 : [0.0, 70.6]
+Accuracy for 3 task(s): 	 [Class-IL]: 32.13 % 	 [Task-IL]: 70.93 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.29898, loss_penalty:0.00000
+epoch:10, loss:0.51675, loss_penalty:0.00000
+epoch:20, loss:3.01399, loss_penalty:0.00000
+epoch:30, loss:1.59159, loss_penalty:0.00000
+epoch:40, loss:0.38655, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.69486, loss_penalty:0.00000
+epoch:60, loss:0.43255, loss_penalty:0.00000
+epoch:70, loss:0.49250, loss_penalty:0.00000
+epoch:80, loss:0.53332, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.55735, loss_penalty:0.00000
+train_time 2338.7619688510895 test_time 3.33872389793396
+Acc for task 0 : [0.0, 79.5, 78.8, 79.10000000000001, 78.9]
+Acc for task 1 : [0.0, 63.9, 63.1, 62.5]
+Acc for task 2 : [0.0, 70.6, 65.7]
+Acc for task 3 : [0.0, 71.89999999999999]
+Accuracy for 4 task(s): 	 [Class-IL]: 26.42 % 	 [Task-IL]: 69.75 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.24187, loss_penalty:0.00000
+epoch:10, loss:1.19680, loss_penalty:0.00000
+epoch:20, loss:0.75653, loss_penalty:0.00000
+epoch:30, loss:1.24403, loss_penalty:0.00000
+epoch:40, loss:0.89102, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.87429, loss_penalty:0.00000
+epoch:60, loss:0.83108, loss_penalty:0.00000
+epoch:70, loss:0.99139, loss_penalty:0.00000
+epoch:80, loss:0.61348, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.50423, loss_penalty:0.00000
+train_time 2331.603093147278 test_time 4.170920372009277
+Acc for task 0 : [0.0, 79.5, 78.8, 79.10000000000001, 78.9, 78.0]
+Acc for task 1 : [0.0, 63.9, 63.1, 62.5, 61.4]
+Acc for task 2 : [0.0, 70.6, 65.7, 69.5]
+Acc for task 3 : [0.0, 71.89999999999999, 69.8]
+Acc for task 4 : [0.0, 73.8]
+Accuracy for 5 task(s): 	 [Class-IL]: 22.18 % 	 [Task-IL]: 70.5 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.82522, loss_penalty:0.00000
+epoch:10, loss:0.72934, loss_penalty:0.00000
+epoch:20, loss:1.08015, loss_penalty:0.00000
+epoch:30, loss:0.91258, loss_penalty:0.00000
+epoch:40, loss:0.85079, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.06651, loss_penalty:0.00000
+epoch:60, loss:1.17697, loss_penalty:0.00000
+epoch:70, loss:0.90337, loss_penalty:0.00000
+epoch:80, loss:0.82037, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.67851, loss_penalty:0.00000
+train_time 2329.6767885684967 test_time 5.005110025405884
+Acc for task 0 : [0.0, 79.5, 78.8, 79.10000000000001, 78.9, 78.0, 77.9]
+Acc for task 1 : [0.0, 63.9, 63.1, 62.5, 61.4, 62.5]
+Acc for task 2 : [0.0, 70.6, 65.7, 69.5, 69.1]
+Acc for task 3 : [0.0, 71.89999999999999, 69.8, 69.1]
+Acc for task 4 : [0.0, 73.8, 72.5]
+Acc for task 5 : [0.0, 69.6]
+Accuracy for 6 task(s): 	 [Class-IL]: 19.52 % 	 [Task-IL]: 70.12 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.61607, loss_penalty:0.00000
+epoch:10, loss:1.18998, loss_penalty:0.00000
+epoch:20, loss:0.82092, loss_penalty:0.00000
+epoch:30, loss:0.95790, loss_penalty:0.00000
+epoch:40, loss:1.10349, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.60963, loss_penalty:0.00000
+epoch:60, loss:0.83920, loss_penalty:0.00000
+epoch:70, loss:1.41751, loss_penalty:0.00000
+epoch:80, loss:0.82545, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.88199, loss_penalty:0.00000
+train_time 2350.081235408783 test_time 5.846729516983032
+Acc for task 0 : [0.0, 79.5, 78.8, 79.10000000000001, 78.9, 78.0, 77.9, 77.8]
+Acc for task 1 : [0.0, 63.9, 63.1, 62.5, 61.4, 62.5, 60.6]
+Acc for task 2 : [0.0, 70.6, 65.7, 69.5, 69.1, 67.0]
+Acc for task 3 : [0.0, 71.89999999999999, 69.8, 69.1, 69.8]
+Acc for task 4 : [0.0, 73.8, 72.5, 71.6]
+Acc for task 5 : [0.0, 69.6, 69.19999999999999]
+Acc for task 6 : [0.0, 73.0]
+Accuracy for 7 task(s): 	 [Class-IL]: 17.51 % 	 [Task-IL]: 69.86 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.62324, loss_penalty:0.00000
+epoch:10, loss:0.83583, loss_penalty:0.00000
+epoch:20, loss:1.59385, loss_penalty:0.00000
+epoch:30, loss:0.66639, loss_penalty:0.00000
+epoch:40, loss:0.89782, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.01335, loss_penalty:0.00000
+epoch:60, loss:1.38024, loss_penalty:0.00000
+epoch:70, loss:0.84626, loss_penalty:0.00000
+epoch:80, loss:1.00646, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:1.06260, loss_penalty:0.00000
+train_time 2341.273372888565 test_time 6.654170513153076
+Acc for task 0 : [0.0, 79.5, 78.8, 79.10000000000001, 78.9, 78.0, 77.9, 77.8, 77.3]
+Acc for task 1 : [0.0, 63.9, 63.1, 62.5, 61.4, 62.5, 60.6, 62.1]
+Acc for task 2 : [0.0, 70.6, 65.7, 69.5, 69.1, 67.0, 66.8]
+Acc for task 3 : [0.0, 71.89999999999999, 69.8, 69.1, 69.8, 68.4]
+Acc for task 4 : [0.0, 73.8, 72.5, 71.6, 70.7]
+Acc for task 5 : [0.0, 69.6, 69.19999999999999, 68.7]
+Acc for task 6 : [0.0, 73.0, 72.7]
+Acc for task 7 : [0.0, 70.5]
+Accuracy for 8 task(s): 	 [Class-IL]: 16.14 % 	 [Task-IL]: 69.65 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.43606, loss_penalty:0.00000
+epoch:10, loss:1.55740, loss_penalty:0.00000
+epoch:20, loss:0.92471, loss_penalty:0.00000
+epoch:30, loss:1.48489, loss_penalty:0.00000
+epoch:40, loss:1.12865, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:1.15572, loss_penalty:0.00000
+epoch:60, loss:0.56455, loss_penalty:0.00000
+epoch:70, loss:1.02659, loss_penalty:0.00000
+epoch:80, loss:1.34362, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.60691, loss_penalty:0.00000
+train_time 2347.3154847621918 test_time 7.480679512023926
+Acc for task 0 : [0.0, 79.5, 78.8, 79.10000000000001, 78.9, 78.0, 77.9, 77.8, 77.3, 78.7]
+Acc for task 1 : [0.0, 63.9, 63.1, 62.5, 61.4, 62.5, 60.6, 62.1, 62.1]
+Acc for task 2 : [0.0, 70.6, 65.7, 69.5, 69.1, 67.0, 66.8, 66.4]
+Acc for task 3 : [0.0, 71.89999999999999, 69.8, 69.1, 69.8, 68.4, 68.0]
+Acc for task 4 : [0.0, 73.8, 72.5, 71.6, 70.7, 71.6]
+Acc for task 5 : [0.0, 69.6, 69.19999999999999, 68.7, 68.2]
+Acc for task 6 : [0.0, 73.0, 72.7, 71.6]
+Acc for task 7 : [0.0, 70.5, 69.0]
+Acc for task 8 : [0.0, 63.6]
+Accuracy for 9 task(s): 	 [Class-IL]: 15.13 % 	 [Task-IL]: 68.8 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+epoch:0, loss:1.68065, loss_penalty:0.00000
+epoch:10, loss:1.13430, loss_penalty:0.00000
+epoch:20, loss:0.79816, loss_penalty:0.00000
+epoch:30, loss:1.88510, loss_penalty:0.00000
+epoch:40, loss:0.90359, loss_penalty:0.00000
+updating mask ratio: 0.1
+epoch:50, loss:0.49044, loss_penalty:0.00000
+epoch:60, loss:0.85431, loss_penalty:0.00000
+epoch:70, loss:1.00305, loss_penalty:0.00000
+epoch:80, loss:0.85150, loss_penalty:0.00000
+updating mask ratio: 0.05
+epoch:90, loss:0.52972, loss_penalty:0.00000
+train_time 2326.5741641521454 test_time 8.33169937133789
+Acc for task 0 : [0.0, 79.5, 78.8, 79.10000000000001, 78.9, 78.0, 77.9, 77.8, 77.3, 78.7, 76.8]
+Acc for task 1 : [0.0, 63.9, 63.1, 62.5, 61.4, 62.5, 60.6, 62.1, 62.1, 60.6]
+Acc for task 2 : [0.0, 70.6, 65.7, 69.5, 69.1, 67.0, 66.8, 66.4, 64.60000000000001]
+Acc for task 3 : [0.0, 71.89999999999999, 69.8, 69.1, 69.8, 68.4, 68.0, 67.7]
+Acc for task 4 : [0.0, 73.8, 72.5, 71.6, 70.7, 71.6, 69.69999999999999]
+Acc for task 5 : [0.0, 69.6, 69.19999999999999, 68.7, 68.2, 67.0]
+Acc for task 6 : [0.0, 73.0, 72.7, 71.6, 71.5]
+Acc for task 7 : [0.0, 70.5, 69.0, 67.4]
+Acc for task 8 : [0.0, 63.6, 61.1]
+Acc for task 9 : [0.0, 73.5]
+Accuracy for 10 task(s): 	 [Class-IL]: 13.62 % 	 [Task-IL]: 67.99 %
+Accuracy for 1 task(s): 	 [Class-IL]: 79.5 % 	 [Task-IL]: 79.5 %
+Accuracy for 2 task(s): 	 [Class-IL]: 44.45 % 	 [Task-IL]: 71.35 %
+Accuracy for 3 task(s): 	 [Class-IL]: 32.13 % 	 [Task-IL]: 70.93 %
+Accuracy for 4 task(s): 	 [Class-IL]: 26.42 % 	 [Task-IL]: 69.75 %
+Accuracy for 5 task(s): 	 [Class-IL]: 22.18 % 	 [Task-IL]: 70.5 %
+Accuracy for 6 task(s): 	 [Class-IL]: 19.52 % 	 [Task-IL]: 70.12 %
+Accuracy for 7 task(s): 	 [Class-IL]: 17.51 % 	 [Task-IL]: 69.86 %
+Accuracy for 8 task(s): 	 [Class-IL]: 16.14 % 	 [Task-IL]: 69.65 %
+Accuracy for 9 task(s): 	 [Class-IL]: 15.13 % 	 [Task-IL]: 68.8 %
+Accuracy for 10 task(s): 	 [Class-IL]: 13.62 % 	 [Task-IL]: 67.99 %
+forget_taskil: 3.33 forget_classil: 0.86 bwt_taskil: -3.33 bwt_classil: -0.54
+ACC for all 5 task(s): 	 [Class-IL]: 13.44$\pm$0.47 	 [Task-IL]: 67.75$\pm$0.14
+BWT for all 5 task(s): 	 [Class-IL]: -0.39$\pm$0.28 	 [Task-IL]: -3.02$\pm$0.32
